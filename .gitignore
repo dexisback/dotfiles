@@ -1,7 +1,7 @@
 # ==============================================================================
 # Dotfiles Git Ignore (Production-Grade Security Rules)
 # ==============================================================================
-
+notes.md
 # Secrets and local environment files
 .env
 .env.*
