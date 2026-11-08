@@ -1,0 +1,47 @@
+# ==============================================================================
+# Dotfiles Git Ignore (Production-Grade Security Rules)
+# ==============================================================================
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.local
+*.local.zsh
+.zshrc.local
+.bashrc.local
+
+# Sensitive directories & keys
+.ssh/
+.gnupg/
+.aws/
+.kube/
+.docker/
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+
+# History files (often contain typed secrets or sensitive URLs)
+*history*
+.*history*
+.zsh_history*
+.bash_history*
+.node_repl_history
+.psql_history
+.rediscli_history
+
+# OS metadata & backups
+.DS_Store
+Thumbs.db
+*.bak
+*.bak-*
+*.tmp
+*~
+*.swp
+*.swo
+
+# Zsh compiled word code / completions cache
+*.zwc
+.zcompdump*

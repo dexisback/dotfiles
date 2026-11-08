@@ -1,0 +1,10 @@
+anysphere.remote-containers
+anysphere.remote-ssh
+dustypomerleau.rust-syntax
+file-icons.file-icons
+fill-labs.dependi
+golang.go
+hashicorp.terraform
+rust-lang.rust-analyzer
+tamasfe.even-better-toml
+vadimcn.vscode-lldb

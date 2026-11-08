@@ -1,0 +1,32 @@
+# ==============================================================================
+# Git Configuration (Cross-Platform macOS + Linux)
+# Managed via dotfiles: https://github.com/dexisback/dotfiles
+# ==============================================================================
+
+[user]
+	email = texamaan86@gmail.com
+	name = Amaan
+
+[credential "https://github.com"]
+	helper = 
+	helper = !gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !gh auth git-credential
+
+[credential]
+	useHttpPath = true
+
+[core]
+	pager = cat
+	autocrlf = input
+
+[pager]
+	diff = false
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = false

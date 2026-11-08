@@ -1,0 +1,50 @@
+{
+    "window.commandCenter": true,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.toml": "toml",
+        "Cargo.toml": "toml",
+        "Cargo.lock": "toml"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "evenBetterToml.semanticTokens": false,
+    "evenBetterToml.syntax.semanticTokens": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "support.type.property-name.toml",
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
+            },
+            {
+                "scope": [
+                    "support.type.property-name.table.toml",
+                    "support.type.property-name.array.toml"
+                ],
+                "settings": {
+                    "foreground": "#4EC9B0"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.table.toml",
+                    "punctuation.definition.array.toml"
+                ],
+                "settings": {
+                    "foreground": "#D4D4D4"
+                }
+            }
+        ]
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "cursor.cpp.enablePartialAccepts": true
+}
